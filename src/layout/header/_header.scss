@@ -1,0 +1,6 @@
+// @import '../../Styles/mixin';
+.header{
+    @include display;
+    border-bottom: 2px solid $ping-light-color;
+    height: 100px;
+}
