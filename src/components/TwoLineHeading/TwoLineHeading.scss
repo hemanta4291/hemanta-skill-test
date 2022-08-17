@@ -1,0 +1,25 @@
+@import '../../Styles/variable';
+
+
+.twoline__title{
+    margin: 0;
+    &--sub{
+        color: $red-color;
+        position: relative;
+        margin-right: 1rem;
+            &::after{
+                content: "/";
+                position: absolute;
+                color: $gray-light-color;
+                margin-left: 5px;
+                margin-top: 5px;
+                
+            }
+    }
+    &--subTitleEmpty{
+        margin-right: 0;
+        &::after{
+            display: none;
+        }
+    }
+}

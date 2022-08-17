@@ -12,8 +12,7 @@ const Home = () => {
   return (
     <div className='homepage'>
         <HomeLeft data={data}/>
-        <HomeMiddle/>
-        <HomeRight/>
+        <HomeRight data={data.selected}/>
     </div>
   )
 }
